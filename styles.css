@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 80px;
+    padding: 20px;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    background-color: goldenrod;
+    height: 55px;
+    color: seashell;
+}
+
+.menuCell {
+    width: 10%;
+    height: 100%;
+    float: right;
+    border: black;
+    text-align: center;
+}
+
+.menuCell:hover {
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+.div1 {
+    background-color:deepskyblue; 
+    width: 50%; 
+    height: 600px; 
+    float: left;
+}
+
+.div2 {
+    background-color: darkcyan;
+    width: 50%; 
+    height: 600px; 
+    float: left;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.headerRow {
+    background-color: steelblue;
+}
+
+.tr1 {
+    background-color: white;
+}
+
+.tr2 {
+    background-color: skyblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.superBoton {
+    background-color: gold;
+    color: saddlebrown;
+    width: 160px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.superBoton:hover {
+    background-color: orangered;
+    color: white;
+    width: 160px;
+    margin: auto;
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    margin-top: 250px;
+}

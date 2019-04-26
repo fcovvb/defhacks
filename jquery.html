@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <script>
+                $(document).ready(function(){
+                    $(".ejemplo").click(function(){
+                    var div = $("div");
+                        div.animate({height: '300px', opacity: '0.4'}, "slow");
+                        div.animate({width: '300px', opacity: '0.8'}, "slow");
+                        div.animate({height: '100px', opacity: '0.4'}, "slow");
+                        div.animate({width: '100px', opacity: '0.8'}, "slow");
+                    }); 
+                });
+            </script>
+    </head>
+
+    <body>
+        <p style="width: 100px;">Hi</p>
+        <br>
+        <br>
+        <br>
+        <h1 class="ejemplo">bye</h1>
+        <div style="width: 100px; height: 100px; background-color: deepskyblue"></div>
+    </body>
+</html>

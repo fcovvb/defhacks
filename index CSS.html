@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $(".menuCell").mouseenter(function(){
+                    var x = $(this).position();
+                    var text = $(this).text();
+                    
+                    alert(text+": Top position: " + x.top + " Left position: " + x.left);
+                });
+
+                $(".div1").mousedown(function(){
+                    $(".div2").slideToggle(1000);
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        
+        <div class="head">
+            <h1>Def Hacks Demo</h1>
+        </div>
+
+        <div class="menu">
+            <a href="">
+                <div class="menuCell"> 
+                    <p>Home</p>
+                </div>
+            </a>
+
+            <a href="">
+                <div class="menuCell"> 
+                    <p>Site 1</p>
+                </div>
+            </a>
+            
+            <a href="">
+                <div class="menuCell"> 
+                    <p>Site 2</p>
+                </div>
+            </a>
+
+            <a href="">
+                <div class="menuCell"> 
+                    <p>Site 3</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="div1">
+            <table>
+                <tr class="headerRow">
+                    <th>
+                        <h1>Columna 1</h1>
+                    </th>
+
+                    <th>
+                        <h1>Columna 2</h1>
+                    </th>
+                </tr>
+                
+                <tr class="tr1">
+                    <td>
+                        <p>Esto es un texto</p>
+                    </td>
+
+                    <td>
+                        <a href="www.xbox.com">Esto es un hipervínculo</a>
+                    </td>
+                </tr>
+
+                <tr class="tr2">
+                        <td>
+                            <p>Esto es un texto2</p>
+                        </td>
+
+                        <td>
+                            <a href="www.xbox.com">Esto es un hipervínculo2</a>
+                        </td>
+                    </tr>
+            </table>
+
+            <a href="https://www.msn.com" id="superBoton">
+                <div class="superBoton">
+                    <h1>Click me!</h1>
+                </div>
+            </a>
+
+        </div>
+
+        <a href="https://www.microsoft.com">
+            <div class="div2">
+                    <img src="http://defhacks.io/images/defhacks-logos/defhacks-wordmark-logo-green-black-green.png">
+            </div>
+        </a>
+        
+       
+    </body>
+    <footer>
+
+    </footer>
+</html>
